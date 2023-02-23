@@ -1,11 +1,21 @@
+
+:root{
+    --azul-dnc: #0C70F2;
+    --preto-dnc:#303030;
+    --cinza-hover:#C9C9C9;
+
+    --fonte-padrao: 'Inter';
+}
 body{
     margin: 0px;
     padding: 0px;
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%), #303030;
+    background-repeat: no-repeat;
 }
 #principal{
     width: 100%;
     height: 100px;
-    background-color: #303030;
+    background-color: var(--preto-dnc);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,7 +30,7 @@ body{
     }
     
     #principal div a{
-        font-family: 'Inter';
+        font-family: var(--fonte-padrao);
         font-style: normal;
         font-weight: 600;
         font-size: 25px;
@@ -28,14 +38,14 @@ body{
         text-decoration: none;
     }
     #principal div a:hover{
-        color: #cccccc;
+        color: var(--cinza-hover);
 
     }
 
     #principal button {
         margin-right: 5%;
-        background: #0C70F2;
-        font-family: 'Inter';
+        background: var(--azul-dnc);
+        font-family: var(--fonte-padrao);
         font-style: normal;
         font-weight: 600;
         font-size: 20px;
@@ -47,3 +57,166 @@ body{
         box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
         cursor: pointer;
     }
+    section header h1{
+        font-family: var(--fonte-padrao);
+        font-style: normal;
+        font-weight: 800;
+        font-size: 80px;
+        line-height: 97px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 0px;
+    }
+    section header h2{
+        font-family: var(--fonte-padrao);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 100px;
+        
+    }
+   
+
+    /* Seção principal do site*/
+
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    header .invert{
+        background-color: black;
+        font-weight: bold;
+        padding: 5px;
+    }
+
+    /*Formulários*/
+    form{
+        font-family: var(--fonte-padrao);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        width:40%;
+        
+    }
+    
+    .form-group{
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+
+    form input{
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        font-family: var(--fonte-padrao);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: var(--preto-dnc);
+        height: 30px;
+        border: 0px;
+        padding: 10px;
+        
+        }
+    .form-group label{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    form input::placeholder{
+        color: rgba(57, 57, 57, 0.5);
+    }
+
+    .checkbox-items label{
+        font-size: 25px;
+        
+    
+
+    }
+    .checkbox-items{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    
+        
+    }
+
+    input[type="checkbox"]{
+       transform: scale(1.7);
+       border: solid 2px;
+       justify-content: space-around;
+    }
+
+    form button[type="submit"]{
+        width: 100%;
+        height: 56px;
+        left: 405px;
+        top: 1465px;
+        background: rgba(12, 112, 242, 0.9);
+        box-shadow: 0px 6px 4px rgba(12, 112, 242, 0.25);
+        border-radius: 10px;
+        margin-top: 82px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+        
+
+
+        
+    
+
+       
+        
+    
+       
+    
+        
+
+        
+
+    
+        
+        
+
+
+
+
+
+        
+
+    
+
+    
+
+
+
+
+        
+
+    
+    
+    
+    
+        
+    
+
