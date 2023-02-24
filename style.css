@@ -313,6 +313,18 @@ footer .linha2 a:hover{
     .checkbox-items label{
         font-size: 17px;
     }
+    /*ajustando o footer*/
+    footer .linha1{
+        flex-direction: column;
+       
+        margin-left: 0%;
+    }
+   footer .endereço{
+        width: 95%;
+        margin-bottom: 20px;
+      
+    
+    }
  }
 
 
