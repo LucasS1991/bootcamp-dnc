@@ -179,7 +179,141 @@ body{
         color: #FFFFFF;
         cursor: pointer;
     }
+
+    /* rodapé */
+
+footer{
+    width:100%;
+    background-color: var(--azul-dnc);
+    }
+footer .linha1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 72px;
+
+}   
+
+footer ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+footer ul li{
+    color: #FFFFFF;
+    font-family: var(--fonte-padrao);
+    margin: 20px 0px 20px 0px;
+}    
+footer nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 330px;
+   
+}
+footer h5{
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    background-color: var(--preto-dnc);
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 15px;
+    
+}   
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color: var(--cinza-hover);
+}
+#dnc{
+    width: 170px;
+   
+}
+#school{
+    width: 120px;
+}
+
+footer .endereço{
+    font-family: var(--fonte-padrao);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+    width: 25%;
+}
+
+footer .linha2 a{
+    font-family: var(--fonte-padrao);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px;
+}
+footer .linha2 a:first-child{
+    border-right: 3px solid white;
+}   
+   
+footer .linha2{
+    height: 30px;
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+footer .linha2 a:hover{
+    color: var(--cinza-hover);
+}
+
+@media only screen and (max-width: 600px){
+    /*menu*/
+    #principal{
+        height: auto;
+        flex-direction: column;
+    }
+    #menu{
+        flex-direction: column;
+        width: 100%;
         
+    }
+    #menu a{
+        display: flex;
+        height: 50px;
+        align-items: center;
+    }
+    #principal button{
+        width: 100%;
+        margin: 0px;
+    }
+    /*section*/
+    section header h1{
+        font-size: 38px;
+    }
+    section header h2{
+        font-size: 28px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    form{
+        width: 95%;
+        font-size:20px;
+    }
+    .checkbox-items label{
+        font-size: 17px;
+    }
+ }
 
 
         
